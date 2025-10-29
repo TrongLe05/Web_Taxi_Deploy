@@ -291,7 +291,7 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .hero p {
@@ -299,7 +299,8 @@ footer {
     }
 
     .hero .cta-button {
-        padding: 5px;
+        padding: 0.8rem 1.5rem;
+        font-size: 12.4px;
     }
 
     /* Cho 2 nút nổi xếp chồng lên nhau trên di động */
