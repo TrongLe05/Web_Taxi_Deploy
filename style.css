@@ -51,10 +51,21 @@ header .container {
 }
 
 header .logo a {
+    display: flex;
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--accent);
     text-decoration: none;
+}
+
+header .logo p {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+header .logo img {
+    width: 100px;
+    height: 100px;
 }
 
 header nav ul {
@@ -81,10 +92,19 @@ header nav a:hover {
 /* --- HERO (BANNER) --- */
 .hero {
     /* Thay 'hero-bg.jpg' bằng link ảnh nền của bạn */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x500.png?text=Ảnh+Nền+Taxi') no-repeat center center/cover;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x500.png?text=Ảnh+Nền+Taxi') no-repeat center center/cover; */
     color: #fff;
-    padding: 6rem 1rem;
-    text-align: center;
+    /* padding: 6rem 1rem; */
+    text-align: left;
+    /* display: block; */
+}
+
+.hero .hero-content {
+    background-image: url('image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
 }
 
 .hero h1 {
@@ -276,6 +296,10 @@ footer {
 
     .hero p {
         font-size: 1.1rem;
+    }
+
+    .hero .cta-button {
+        padding: 5px;
     }
 
     /* Cho 2 nút nổi xếp chồng lên nhau trên di động */
