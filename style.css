@@ -91,22 +91,20 @@ header nav a:hover {
 
 /* --- HERO (BANNER) --- */
 .hero {
-    /* Thay 'hero-bg.jpg' bằng link ảnh nền của bạn */
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x500.png?text=Ảnh+Nền+Taxi') no-repeat center center/cover; */
-    color: #fff;
-    /* padding: 6rem 1rem; */
-    text-align: left;
-    /* display: block; */
-}
-
-.hero .hero-content {
-    background-image: url('image/banner.jpg');
+    background: url('image/banner.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 100px;
+    text-align: left;
+    color: #fff;
+    /* padding: 1px 0; */
 }
-
+.hero .banner {
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    box-sizing: content-box;
+    z-index: 0;
+}
 .hero h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
@@ -288,6 +286,10 @@ footer {
 
     header nav li {
         margin: 0 0.5rem;
+    }
+
+    .hero .hero-content {
+        min-height: 300px;
     }
 
     .hero h1 {
