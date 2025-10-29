@@ -91,12 +91,13 @@ header nav a:hover {
 
 /* --- HERO (BANNER) --- */
 .hero {
+    max-height: 300px;
     background: url('image/banner.jpg');
     background-size: cover;
     background-position: center;
     text-align: left;
     color: #fff;
-    /* padding: 1px 0; */
+    padding: 300px 0;
 }
 
 .hero .hero-content {
@@ -283,6 +284,11 @@ footer {
 
     header nav li {
         margin: 0 0.5rem;
+    }
+
+    .hero {
+        max-height: 300px;
+        padding: 43px;
     }
 
     .hero .hero-content {
