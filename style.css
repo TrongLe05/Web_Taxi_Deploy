@@ -6,6 +6,7 @@
     --bg: #f8fafc;
     --card: #ffffff;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -181,14 +182,15 @@ section h2 {
 /* (Phần này được chuyển ra ngoài để áp dụng cho cả desktop) */
 .bang-gia {
     max-width: 520px;
-    margin: auto; /* Thêm vào để căn giữa */
+    margin: auto;
+    /* Thêm vào để căn giữa */
 }
 
 .rate-row {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem 0;
-    border-bottom: 1px dashed #cecdcd 
+    border-bottom: 1px dashed #cecdcd
 }
 
 /* --- CHÂN TRANG (FOOTER) --- */
