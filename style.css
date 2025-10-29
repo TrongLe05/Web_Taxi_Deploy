@@ -98,13 +98,7 @@ header nav a:hover {
     color: #fff;
     /* padding: 1px 0; */
 }
-.hero .banner {
-    max-width: 100%;
-    height: auto;
-    background-position: center;
-    box-sizing: content-box;
-    z-index: 0;
-}
+
 .hero h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
