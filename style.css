@@ -93,7 +93,7 @@ header nav a:hover {
 .hero {
     max-height: 300px;
     background: url('image/banner.jpg');
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     text-align: left;
     color: #fff;
